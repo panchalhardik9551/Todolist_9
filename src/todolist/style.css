@@ -1,0 +1,88 @@
+body{
+    background-image: radial-gradient(rgb(0, 0, 254), rgb(201, 64, 64),  rgb(142, 30, 246)) ;
+}
+
+.main{
+    display: flex;
+    margin: 60px;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 5px;
+    width: 1415px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container{
+    height: 560px;
+    background-image: radial-gradient(rgb(77, 77, 239), rgb(204, 107, 107),  rgb(157, 71, 238)) ;
+    margin: 5px;
+    width: 440px;
+    border-radius: 20px;
+    background-color: rgb(246, 100, 219);
+    padding-top: 10px;
+    
+}
+
+
+label{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+    margin-bottom: 5px;
+}
+span{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+ol{
+    list-style: none;
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: 370px;
+    word-wrap: break-word;
+    margin-top: 20px;
+    width: 420px;
+}
+li{
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.btn-info{
+    font-size: 17px;
+}
+
+span{
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width:425px) {
+    .main{
+        width: 445px;
+        flex-wrap: wrap;
+        display: flex;
+    flex-direction: column;
+
+    }
+
+    .container{
+    width: 370px;
+
+    }
+
+  ol{
+    height: 370px;
+    word-wrap: break-word;
+    margin-top: 20px;
+    width: 350px;
+}
+}
